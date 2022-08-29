@@ -1,4 +1,4 @@
-# Intégration de maquette mobile - Cook With Us
+# Intégration d'éléments d'interface
 
 Intégrez la maquette de la façon la plus précise possible.
 
