@@ -95,9 +95,11 @@ main {
   justify-content: space-between;
   align-items: flex-start;
   height: 208px;
+  margin-bottom: 64px;
 }
 
-.button-enhanced a {
+.button-type-1,
+.button-type-2 {
   background-color: var(--color-special);
   color: var(--color-main);
   padding: 12px 32px;
@@ -105,7 +107,7 @@ main {
 }
 
 .button-type-1 {
-
+  border-radius: 8px;
 }
 
 .button-type-2 {
@@ -113,5 +115,10 @@ main {
 }
 
 .button-type-3 {
-  
+  background-color: var(--color-main);
+  color: var(--color-special);
+  padding: 10px 15px;
+  border-radius: 50%;
+  font-size: 30px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.19);
 }
