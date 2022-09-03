@@ -46,6 +46,7 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: text-top;
+  display: block
 }
 
 /* ====================================
@@ -121,4 +122,31 @@ main {
   border-radius: 50%;
   font-size: 30px;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.19);
+}
+
+article {
+  background-color: var(--color-main);
+  border-radius: 8px;
+  box-shadow: 0 2px 10px 0 rgba(4,2,2,0.17);
+}
+
+.article-content {
+  padding: 16px 24px;
+}
+
+.article-content h1 {
+  font-size: 28px;
+  letter-spacing: 1.4px;
+  margin-bottom: 10px;
+}
+
+.article-content h2 {
+  font-size: 22px;
+  letter-spacing: 1.1px;
+  margin-bottom: 16px;
+}
+
+.article-content p {
+  font-size: 18px;
+  letter-spacing: 0.9px;
 }
