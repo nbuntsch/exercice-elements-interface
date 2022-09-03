@@ -23,7 +23,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-
+  width: 320px;
+  margin: auto;
   font-size: 1rem;
   line-height: 1.5rem;
 }
@@ -42,3 +43,4 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
