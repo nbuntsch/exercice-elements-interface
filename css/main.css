@@ -24,6 +24,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
 
+  font-family: "roboto";
   font-size: 1rem;
   line-height: 1.5rem;
   margin: auto;
@@ -45,3 +46,24 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+header {
+  height: 244px;
+  background: #1c1c1c;
+  box-shadow: 0 2px 4px 0 rgba(28, 28, 28, 0.5);
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  color: #eaeaea;
+  letter-spacing: 0.9px;
+  text-align: left;
+  line-height: 21px;
+}
