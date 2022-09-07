@@ -74,5 +74,37 @@ ul {
   list-style-type: none;
 }
 
+main {
+  background-color: #E1E7F6;
+}
 
 .blue-button {
+  background-color: #3A5AF7;
+  color: #EAEAEA;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-align: left;
+  line-height: 24px;
+  padding: 12px 27px;
+  border: none;
+}
+
+.rectangle-button {
+  box-shadow: 0 2px 4px 0 rgba(58,90,247,0.50);
+  border-radius: 8px;
+  margin: 65px 174px 32px 16px;
+}
+
+.ovale-button {
+  box-shadow: 0 2px 4px 0 rgba(58,90,247,0.50);
+  margin: 0 174px 32px 16px;
+  border-radius: 24px;
+}
+
+.plus-button {
+  width: 50px;
+  margin: 0 0 64px 16px;
+}
+
