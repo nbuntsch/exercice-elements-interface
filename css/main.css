@@ -24,6 +24,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
 
+  background-color: #e1e7f6;
   font-family: "roboto";
   font-size: 1rem;
   line-height: 1.5rem;
@@ -71,4 +72,48 @@ nav a {
   line-height: 21px;
   border-top: 1px solid rgba(58, 90, 247, 0.5);
   border-bottom: 1px solid rgba(58, 90, 247, 0.5);
+}
+
+a {
+  text-decoration: none;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 52px 0px;
+}
+
+.button {
+  display: inline-block;
+  background: #3a5af7;
+  box-shadow: 0 2px 4px 0 rgba(58, 90, 247, 0.5);
+  font-family: Roboto-Medium;
+  font-size: 20px;
+  color: #eaeaea;
+  letter-spacing: 1px;
+  text-align: left;
+  line-height: 24px;
+  padding: 12px 32px;
+  margin: 18px 16px;
+}
+
+.button-squared {
+  border-radius: 8px;
+}
+
+.button-rounded {
+  border-radius: 24px;
+}
+
+.button-circle {
+  background: #ffffff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+  font-size: 30px;
+  color: #3a5af7;
+  width: 48px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 12px 0px;
 }
