@@ -46,4 +46,41 @@ video {
 body {
   max-width: 320px;
   font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+nav {
+  background-color: #1c1c1c;
+  padding: 32px 16px;
+  color: white;
+  font-weight: 500;
+  box-shadow: 0 2px 4px 0 rgba(28, 28, 28, 0.5);
+}
+
+ul {
+  line-height: 24px;
+  list-style-type: none;
+}
+
+li {
+  border-top: solid 1px #3a5af7;
+  padding: 12px 0;
+}
+
+.last-element {
+  border-bottom: solid 1px #3a5af7;
+}
+
+.button {
+  background: #3a5af7;
+  box-shadow: 0 2px 4px 0 rgba(58, 90, 247, 0.5);
+  font-size: 20px;
+  color: #eaeaea;
+  letter-spacing: 1px;
+  text-align: left;
+  line-height: 24px;
+}
+
+.rectangle {
+  border-radius: 8px 8px 0 8px 8px;
 }
