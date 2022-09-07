@@ -53,7 +53,7 @@ body {
 nav {
   background-color: #1c1c1c;
   padding: 32px 16px;
-  color: white;
+  color: #eaeaea;
   font-weight: 500;
   box-shadow: 0 2px 4px 0 rgba(28, 28, 28, 0.5);
 }
@@ -111,4 +111,14 @@ li {
   letter-spacing: 1.5px;
   border-radius: 50%;
   padding: 10px 14px;
+}
+
+article {
+  margin: 0 16px 78px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.text {
+  padding: 16px 18px 24px;
 }
