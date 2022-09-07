@@ -42,3 +42,13 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+html {
+  margin: auto;
+  max-width: 320px;
+}
+
+body {
+  font-family: 'Roboto';
+}
+
