@@ -42,3 +42,8 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+body {
+  max-width: 320px;
+  font-family: "Roboto", sans-serif;
+}
