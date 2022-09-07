@@ -62,3 +62,17 @@ header {
   text-align: left;
 }
 
+li {
+  margin: 11px 0;
+}
+
+hr {
+  border: solid #3A5AF7 0.5px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+.blue-button {
