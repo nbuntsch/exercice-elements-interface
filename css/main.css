@@ -1,6 +1,6 @@
 /*  fonts ↓
 
-font-family: 'Roboto', sans-serif;
+font-family: Roboto-Medium;
 
 */
 
@@ -15,7 +15,7 @@ font-family: 'Roboto', sans-serif;
   --secondary-background-color: #1c1c1c;
   --third-background-color: #3a5af7;
   --fourth-backgorund-color: #fff;
-  --main-font: "Roboto", sans-serif;
+  --main-font: Roboto-Medium;
 }
 
 /* ====================================
@@ -80,13 +80,20 @@ a {
 header {
   background-color: var(--secondary-background-color);
   color: var(--secondary-color);
+  padding: 20px 16px;
+  letter-spacing: 0.9px;
 }
 
 hr {
   border: 1px solid #3a5af780;
+  margin: 12px 0;
 }
 
 /* main ↓ */
+
+main {
+  padding: 64px 16px 78px;
+}
 
 /* main buttons ↓ */
 
@@ -94,14 +101,26 @@ hr {
   background-color: var(--third-background-color);
   color: var(--secondary-color);
   font-size: 20px;
+  padding: 12px 32px;
+  background: #3a5af7;
+  box-shadow: 0 2px 4px 0 rgba(58, 90, 247, 0.5);
+  letter-spacing: 1px;
+  line-height: 24px;
+  border-radius: 8px;
 }
 
 .button-round {
+  background: #3a5af7;
+  box-shadow: 0 2px 4px 0 rgba(58, 90, 247, 0.5);
+  border-radius: 24px;
 }
 
 .plus-button {
   background-color: var(--fourth-backgorund-color);
   font-size: 30px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50px;
+  letter-spacing: 1.5px;
 }
 
 /* main card ↓ */
@@ -110,12 +129,20 @@ hr {
   background-color: var(--fourth-backgorund-color);
   box-shadow: #0402022b;
   font-weight: 500;
+  box-shadow: 0 2px 10px 0 rgba(4, 2, 2, 0.17);
+  border-radius: 8px;
 }
 
 dt {
   font-size: 28px;
+  letter-spacing: 1.4px;
 }
 
 dd {
   font-size: 22px;
+  letter-spacing: 1.1px;
+}
+
+p {
+  letter-spacing: 0.9px;
 }
