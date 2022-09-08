@@ -12,7 +12,7 @@ font-family: 'Roboto', sans-serif;
   --main-color: #1e1e1e;
   --secondary-color: #eaeaea;
   --main-background-color: #e1e7f6;
-  --secondary-background-color: #df0000;
+  --secondary-background-color: #1c1c1c;
   --third-background-color: #3a5af7;
   --fourth-backgorund-color: #fff;
   --main-font: "Roboto", sans-serif;
@@ -52,6 +52,7 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   display: block;
+  margin: 0 auto;
 }
 
 /* ====================================
@@ -63,13 +64,44 @@ video {
 body {
   font-family: var(--main-font);
   font-size: 18px;
+  background-color: var(--main-background-color);
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* header ↓ */
 
-nav {
+header {
+  background-color: var(--secondary-background-color);
+  color: var(--secondary-color);
+}
+
+hr {
+  border: 1px solid #3a5af780;
 }
 
 /* main ↓ */
 
-/* footer ↓ */
+.button {
+  background-color: var(--third-background-color);
+  color: var(--secondary-color);
+}
+
+.button-round {
+}
+
+.plus-button {
+  background-color: var(--fourth-backgorund-color);
+}
+
+.card {
+  background-color: var(--fourth-backgorund-color);
+  box-shadow: #0402022b;
+  font-weight: 500;
+}
