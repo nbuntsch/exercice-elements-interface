@@ -88,9 +88,12 @@ hr {
 
 /* main ↓ */
 
+/* main buttons ↓ */
+
 .button {
   background-color: var(--third-background-color);
   color: var(--secondary-color);
+  font-size: 20px;
 }
 
 .button-round {
@@ -98,10 +101,21 @@ hr {
 
 .plus-button {
   background-color: var(--fourth-backgorund-color);
+  font-size: 30px;
 }
+
+/* main card ↓ */
 
 .card {
   background-color: var(--fourth-backgorund-color);
   box-shadow: #0402022b;
   font-weight: 500;
+}
+
+dt {
+  font-size: 28px;
+}
+
+dd {
+  font-size: 22px;
 }
