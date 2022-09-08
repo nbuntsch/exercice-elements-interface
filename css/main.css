@@ -97,16 +97,22 @@ main {
 
 /* main buttons ↓ */
 
+.container-button {
+  padding: 0 174px 64px 0;
+}
+
 .button {
   background-color: var(--third-background-color);
   color: var(--secondary-color);
   font-size: 20px;
+  display: flex;
+  justify-content: center;
   padding: 12px 32px;
-  background: #3a5af7;
   box-shadow: 0 2px 4px 0 rgba(58, 90, 247, 0.5);
   letter-spacing: 1px;
   line-height: 24px;
   border-radius: 8px;
+  margin-bottom: 32px;
 }
 
 .button-round {
@@ -117,10 +123,13 @@ main {
 
 .plus-button {
   background-color: var(--fourth-backgorund-color);
+  color: var(--third-background-color);
   font-size: 30px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.19);
   border-radius: 50px;
   letter-spacing: 1.5px;
+  display: flex;
+  justify-content: center;
 }
 
 /* main card ↓ */
@@ -133,14 +142,20 @@ main {
   border-radius: 8px;
 }
 
+dl {
+  padding: 16px;
+}
+
 dt {
   font-size: 28px;
   letter-spacing: 1.4px;
+  margin-bottom: 5px;
 }
 
 dd {
   font-size: 22px;
   letter-spacing: 1.1px;
+  margin-bottom: 16px;
 }
 
 p {
