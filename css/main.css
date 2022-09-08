@@ -58,6 +58,13 @@ video {
 // base rules
 // ==================================== */
 
+/* base ↓ */
+
+body {
+  font-family: var(--main-font);
+  font-size: 18px;
+}
+
 /* header ↓ */
 
 nav {
