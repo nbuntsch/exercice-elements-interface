@@ -1,8 +1,21 @@
+/*  fonts ↓
+
+font-family: Roboto-Medium;
+
+*/
+
 /* ====================================
 // css variables
 // ==================================== */
 
 :root {
+  --main-color: #1e1e1e;
+  --secondary-color: #eaeaea;
+  --main-background-color: #e1e7f6;
+  --secondary-background-color: #1c1c1c;
+  --third-background-color: #3a5af7;
+  --fourth-backgorund-color: #fff;
+  --main-font: Roboto-Medium;
 }
 
 /* ====================================
@@ -17,13 +30,15 @@
 
 html {
   font-size: 16px;
+  max-width: 320px;
+  margin: auto;
+  box-shadow: 0 0 50px rgb(0 0 0 / 20%);
 }
 
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-
   font-size: 1rem;
   line-height: 1.5rem;
 }
@@ -36,9 +51,113 @@ img,
 video {
   max-inline-size: 100%;
   block-size: auto;
-  vertical-align: text-top;
+  display: block;
+  margin: 0 auto;
 }
 
 /* ====================================
 // base rules
 // ==================================== */
+
+/* base ↓ */
+
+body {
+  font-family: var(--main-font);
+  font-size: 18px;
+  background-color: var(--main-background-color);
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* header ↓ */
+
+header {
+  background-color: var(--secondary-background-color);
+  color: var(--secondary-color);
+  padding: 20px 16px;
+  letter-spacing: 0.9px;
+}
+
+hr {
+  border: 1px solid #3a5af780;
+  margin: 12px 0;
+}
+
+/* main ↓ */
+
+main {
+  padding: 64px 16px 78px;
+}
+
+/* main buttons ↓ */
+
+.container-button {
+  padding: 0 174px 64px 0;
+}
+
+.button {
+  background-color: var(--third-background-color);
+  color: var(--secondary-color);
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 12px 32px;
+  box-shadow: 0 2px 4px 0 rgba(58, 90, 247, 0.5);
+  letter-spacing: 1px;
+  line-height: 24px;
+  border-radius: 8px;
+  margin-bottom: 32px;
+}
+
+.button-round {
+  background: #3a5af7;
+  box-shadow: 0 2px 4px 0 rgba(58, 90, 247, 0.5);
+  border-radius: 24px;
+}
+
+.plus-button {
+  background-color: var(--fourth-backgorund-color);
+  color: var(--third-background-color);
+  font-size: 30px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50px;
+  letter-spacing: 1.5px;
+  display: flex;
+  justify-content: center;
+}
+
+/* main card ↓ */
+
+.card {
+  background-color: var(--fourth-backgorund-color);
+  box-shadow: #0402022b;
+  font-weight: 500;
+  box-shadow: 0 2px 10px 0 rgba(4, 2, 2, 0.17);
+  border-radius: 8px;
+}
+
+dl {
+  padding: 16px;
+}
+
+dt {
+  font-size: 28px;
+  letter-spacing: 1.4px;
+  margin-bottom: 5px;
+}
+
+dd {
+  font-size: 22px;
+  letter-spacing: 1.1px;
+  margin-bottom: 16px;
+}
+
+p {
+  letter-spacing: 0.9px;
+}
